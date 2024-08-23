@@ -1,0 +1,163 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+.logo {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #1e90ff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+form input,
+button {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+form input {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+form button {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.btn i {
+  color: orangered;
+}
+
+/* Section styles */
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+}
+
+#about p {
+  width: 550px;
+}
+
+h1 span {
+  text-transform: uppercase;
+  color: rgb(231, 119, 49);
+}
+
+.about-me {
+  padding-top: 100px;
+}
+section {
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project {
+  background-color: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.project a {
+  color: rgb(231, 119, 49);
+}
+.project:hover {
+  background: rgb(231, 119, 49);
+  cursor: pointer;
+  color: #fff;
+  a {
+    color: white;
+  }
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(231, 119, 49);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer i {
+  margin-left: 8px;
+  cursor: pointer;
+}
