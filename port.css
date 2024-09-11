@@ -118,6 +118,10 @@ h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
+
+#projects {
+  margin: 8rem 0;
+}
 .project-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
