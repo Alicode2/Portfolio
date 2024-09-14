@@ -35,6 +35,11 @@ p {
 }
 
 /* Navigation styles */
+.burger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -202,7 +207,20 @@ footer i {
 
 @media (max-width: 768px) {
   header {
+    align-items: center;
+  }
+  .navList {
+    display: none;
     flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .burger {
+    display: block;
   }
 
   nav ul {
@@ -215,7 +233,7 @@ footer i {
   }
 
   form {
-    margin-top: 10px;
+    display: none;
   }
 
   #about h1 {
@@ -237,15 +255,25 @@ footer i {
     font-size: 0.9rem;
   }
 
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .logo {
+    margin-top: 12px;
     font-size: 1.2rem;
   }
-
+  header {
+    align-items: center;
+  }
+  .navList {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .navList.active {
+    display: flex;
+  }
   nav ul li {
     margin: 5px 0;
   }
@@ -267,7 +295,7 @@ footer i {
   }
 
   footer {
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
   }
 }

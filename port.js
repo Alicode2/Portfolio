@@ -1,3 +1,8 @@
+function navToggle() {
+  const navLinks = document.getElementById("navList");
+  navLinks.classList.toggle("active");
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const logo = document.querySelector(".logo");
   const hareeAbout = document.querySelector("#about h1 span");
